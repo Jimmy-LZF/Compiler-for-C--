@@ -1,0 +1,3 @@
+Error type A at Line 3: Illegal floating point number "12.34e".
+Error type B at line 3: syntax error, unexpected PLUS.
+Error type A at Line 5: Illegal floating point number ".e-2".

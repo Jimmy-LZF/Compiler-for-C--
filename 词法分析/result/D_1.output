@@ -1,0 +1,3 @@
+Error type B at line 4: syntax error, unexpected INT, expecting SEMI.
+Error type A at Line 5: Illegal ID "0xFFaBc".
+Error type A at Line 6: Illegal ID "0X23fD".

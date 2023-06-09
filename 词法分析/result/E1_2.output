@@ -1,0 +1,5 @@
+Error type A at Line 3: Illegal ID "0xf29C0".
+Error type B at line 3: syntax error, unexpected SEMI.
+Error type A at Line 4: Illegal ID "0xCd0G".
+Error type A at Line 5: Illegal ID "0x000abCD".
+Error type A at Line 6: Illegal ID "0xx346f".

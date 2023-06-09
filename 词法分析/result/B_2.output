@@ -1,0 +1,4 @@
+Error type B at line 5: syntax error, unexpected ASSIGNOP.
+Error type B at line 18: syntax error, unexpected PLUS.
+Error type B at line 22: syntax error, unexpected RETURN, expecting $end or TYPE or STRUCT.
+Error type B at line 31: syntax error, unexpected ASSIGNOP, expecting SEMI.

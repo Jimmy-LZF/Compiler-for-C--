@@ -1,0 +1,101 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        TYPE: int
+      FunDec (1)
+        ID: sub
+        LP
+        VarList (1)
+          ParamDec (1)
+            Specifier (1)
+              TYPE: int
+            VarDec (1)
+              ID: a
+          COMMA
+          VarList (1)
+            ParamDec (1)
+              Specifier (1)
+                TYPE: int
+              VarDec (1)
+                ID: b
+        RP
+      CompSt (2)
+        LC
+        DefList (3)
+          Def (3)
+            Specifier (3)
+              TYPE: int
+            DecList (3)
+              Dec (3)
+                VarDec (3)
+                  ID: c
+                ASSIGNOP
+                Exp (3)
+                  Exp (3)
+                    Exp (3)
+                      ID: a
+                    PLUS
+                    Exp (3)
+                      ID: b
+                  MINUS
+                  Exp (3)
+                    Exp (3)
+                      Exp (3)
+                        ID: a
+                      STAR
+                      Exp (3)
+                        ID: b
+                    DIV
+                    Exp (3)
+                      INT: 3
+            SEMI
+          DefList (4)
+            Def (4)
+              Specifier (4)
+                TYPE: int
+              DecList (4)
+                Dec (4)
+                  VarDec (4)
+                    ID: d
+                  ASSIGNOP
+                  Exp (4)
+                    Exp (4)
+                      Exp (4)
+                        NOT
+                        Exp (4)
+                          ID: a
+                      AND
+                      Exp (4)
+                        ID: b
+                    OR
+                    Exp (4)
+                      Exp (4)
+                        ID: c
+                      RELOP
+                      Exp (4)
+                        INT: 4
+              SEMI
+            DefList (5)
+              Def (5)
+                Specifier (5)
+                  TYPE: int
+                DecList (5)
+                  Dec (5)
+                    VarDec (5)
+                      ID: e
+                    ASSIGNOP
+                    Exp (5)
+                      Exp (5)
+                        ID: a
+                      AND
+                      Exp (5)
+                        ID: b
+                SEMI
+        StmtList (6)
+          Stmt (6)
+            RETURN
+            Exp (6)
+              ID: e
+            SEMI
+        RC

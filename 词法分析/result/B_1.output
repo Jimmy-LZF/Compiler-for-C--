@@ -1,0 +1,4 @@
+Error type B at line 4: syntax error, unexpected TYPE, expecting ID.
+Error type B at line 7: syntax error, unexpected LP, expecting SEMI.
+Error type B at line 17: syntax error, unexpected ID, expecting RC.
+Error type A at Line 20: Illegal floating point number ".85".

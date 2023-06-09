@@ -1,0 +1,101 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        TYPE: int
+      FunDec (1)
+        ID: array
+        LP
+        VarList (1)
+          ParamDec (1)
+            Specifier (1)
+              TYPE: int
+            VarDec (1)
+              ID: i
+        RP
+      CompSt (2)
+        LC
+        DefList (3)
+          Def (3)
+            Specifier (3)
+              TYPE: int
+            DecList (3)
+              Dec (3)
+                VarDec (3)
+                  VarDec (3)
+                    VarDec (3)
+                      ID: a
+                    LB
+                    INT: 3
+                    RB
+                  LB
+                  INT: 3
+                  RB
+            SEMI
+        StmtList (4)
+          Stmt (4)
+            Exp (4)
+              Exp (4)
+                Exp (4)
+                  Exp (4)
+                    ID: a
+                  LB
+                  Exp (4)
+                    ID: i
+                  RB
+                LB
+                Exp (4)
+                  ID: i
+                RB
+              ASSIGNOP
+              Exp (4)
+                INT: 1
+            SEMI
+          StmtList (5)
+            Stmt (5)
+              WHILE
+              LP
+              Exp (5)
+                Exp (5)
+                  ID: i
+                RELOP
+                Exp (5)
+                  INT: 9
+              RP
+              Stmt (5)
+                CompSt (5)
+                  LC
+                  StmtList (6)
+                    Stmt (6)
+                      Exp (6)
+                        Exp (6)
+                          Exp (6)
+                            Exp (6)
+                              ID: a
+                            LB
+                            Exp (6)
+                              INT: 0
+                            RB
+                          LB
+                          Exp (6)
+                            ID: i
+                          RB
+                        ASSIGNOP
+                        Exp (6)
+                          INT: 1
+                      SEMI
+                    StmtList (7)
+                      Stmt (7)
+                        Exp (7)
+                          Exp (7)
+                            ID: i
+                          ASSIGNOP
+                          Exp (7)
+                            Exp (7)
+                              ID: i
+                            PLUS
+                            Exp (7)
+                              INT: 1
+                        SEMI
+                  RC
+        RC
